@@ -1,0 +1,152 @@
+.header {
+    height: 200px;
+}
+
+.newstop-title {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.newstop-title-text {
+    font-size: 36px;
+    font-family: 'sq-eb';
+}
+.newstop-title-count {
+    font-size: 16px;
+    font-family: 'sq-r';
+    color: #777;
+    padding-left: 10px;
+}
+
+.newstop-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.newstop-left {
+    width: 700px;
+}
+.newstop-left-img-here {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.newstop-left-title {
+    padding: 20px 0;
+    font-size: 28px;
+    line-height: 40px;
+}
+.newstop-left-copy {
+    font-size: 16px;
+    line-height: 24px;
+    color: #555;
+}
+.newstop-left-info {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.newstop-left-info span {
+    padding-right: 20px;
+}
+
+.newstop-right {
+    width: 400px;
+}
+.newstop-right-item {
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.newstop-right-title {
+    font-size: 20px;
+    line-height: 30px;
+    width: 210px;
+}
+.newstop-right-img {
+    width: 180px;
+    height: 120px;
+    background-color: #ececec;
+}
+.newstop-right-img-here {
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.newstop-right-copy {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555;
+}
+.newstop-right-info {
+    font-size: 14px;
+    color: #555;
+    padding-top: 20px;
+}
+.newstop-right-info span {
+    padding-right: 20px;
+}
+
+.newslist {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+.newslist-page {
+    border-top: 1px solid #c8c8c8;
+    margin-right: 40px;
+}
+.newslist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.newslist-item-img {
+    display: inline-block;
+    width: 180px;
+    height: 120px;
+    background-color: #ececec;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.newslist-item-title {
+    font-size: 20px;
+    line-height: 30px;
+}
+.newslist-item-copy {
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    padding-top: 20px;
+}
+
+.minicon-item {
+    padding-bottom: 40px;
+}
+
+
+/* hover effect */
+.newstop-left-title:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.newstop-right-title:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.newslist-item-title:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
