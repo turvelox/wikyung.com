@@ -1,4 +1,4 @@
-# wikyung.com
+# wikyung.com (PC Version)
 
 ## Project setup
 ```
